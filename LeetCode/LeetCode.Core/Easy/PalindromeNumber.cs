@@ -2,7 +2,15 @@
 {
     public class PalindromeNumber
     {
-        public bool IsPalindrome(int x)
+        /// <summary>
+        /// Determines whether the given integer is a palindrome.
+        /// A palindrome is a number that reads the same forwards and backwards.
+        /// Handles negative numbers, zero, and single-digit numbers as special cases.
+        /// For other numbers, compares characters from both ends of the string representation.
+        /// </summary>
+        /// <param name="x">The integer to check.</param>
+        /// <returns>True if the integer is a palindrome; otherwise, false.</returns>
+        public static bool IsPalindrome(int x)
         {
             if (x < 0)
             {

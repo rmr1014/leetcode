@@ -20,7 +20,7 @@ namespace LeetCode.Core.Tests.Easy
         {
             var palindromeNumber = new PalindromeNumber();
 
-            var result = palindromeNumber.IsPalindrome(input);
+            var result = PalindromeNumber.IsPalindrome(input);
 
             Assert.Equal(expected, result);
         }
